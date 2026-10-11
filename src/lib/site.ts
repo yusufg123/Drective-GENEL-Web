@@ -1,0 +1,48 @@
+import type { Localized } from './i18n'
+
+export const site = {
+  name: 'Drective',
+  legalName: 'D-RECTIVE Yazılım ve Danışmanlık Ltd. Şti.',
+  url: 'https://drective.com',
+  email: 'drectivegames@gmail.com',
+  phone: '+90 535 964 45',
+  address: 'Halkalı Merkez Mah. Halkalı Cad. No:281/23 Ofis No:34, Küçükçekmece/İstanbul',
+  title: {
+    tr: 'Drective — Oyun ve Mobil Uygulama Stüdyosu',
+    en: 'Drective — Game and Mobile App Studio',
+  } satisfies Localized,
+  description: {
+    tr: 'Drective, İstanbul’da bir oyun ve mobil uygulama stüdyosu. Mahallenin Makası ve Connections gibi oyunlar, mobil uygulamalar ve markalar için web siteleri yapıyoruz.',
+    en: 'Drective is a game and mobile app studio based in Istanbul. We make games like Mahallenin Makası and Connections, build mobile apps and create websites for brands.',
+  } satisfies Localized,
+  keywords: [
+    'Drective',
+    'oyun stüdyosu',
+    'game studio',
+    'mobil oyun',
+    'mobile game',
+    'oyun geliştirme',
+    'game development',
+    'mobil uygulama geliştirme',
+    'mobile app development',
+    'Unity',
+    'indie oyun',
+    'indie game',
+    'Mahallenin Makası',
+    'Connections Steam',
+    'CubeLune',
+    'Wizardus',
+    'RALLI',
+    'US',
+    'web sitesi geliştirme',
+    'web development',
+    'İstanbul yazılım şirketi',
+    'Istanbul game studio',
+  ],
+  social: {
+    instagram: 'https://www.instagram.com/drectiveinteractive/',
+    linkedin: 'https://www.linkedin.com/company/d-rective-interactive/',
+    github: 'https://github.com/efeardaaric',
+    steam: 'https://store.steampowered.com/app/4824950/Connections/',
+  },
+}

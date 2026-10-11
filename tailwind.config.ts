@@ -9,15 +9,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        short: { raw: '(max-width: 1023px) and (max-height: 720px)' },
+      },
       colors: {
-        background: '#0E0D0B',
-        foreground: '#F3EFE6',
-        surface: '#171512',
-        muted: '#9C9588',
-        line: '#2A2620',
+        background: '#141414',
+        foreground: '#F2F0EA',
+        surface: '#1B1B1A',
+        muted: '#AAA9A2',
+        line: '#363633',
         brass: {
-          DEFAULT: '#D4A017',
-          soft: '#E8C35A',
+          DEFAULT: '#E3B64B',
+          soft: '#F0CB73',
           deep: '#A67C0F',
         },
         primary: {
@@ -25,8 +28,8 @@ const config: Config = {
           100: '#F5E9C4',
           200: '#EBD48A',
           300: '#E0BF50',
-          400: '#D4A017',
-          500: '#D4A017',
+          400: '#E3B64B',
+          500: '#E3B64B',
           600: '#A67C0F',
           700: '#7A5B0B',
           800: '#4F3A07',
@@ -49,8 +52,8 @@ const config: Config = {
           100: '#F5E9C4',
           200: '#EBD48A',
           300: '#E0BF50',
-          400: '#D4A017',
-          500: '#D4A017',
+          400: '#E3B64B',
+          500: '#E3B64B',
           600: '#A67C0F',
           700: '#7A5B0B',
           800: '#4F3A07',
@@ -58,8 +61,9 @@ const config: Config = {
         },
       },
       fontFamily: {
-        sans: ['var(--font-plex)', 'system-ui', 'sans-serif'],
-        heading: ['var(--font-syne)', 'system-ui', 'sans-serif'],
+        sans: ['var(--font-studio)', 'system-ui', 'sans-serif'],
+        heading: ['var(--font-studio)', 'system-ui', 'sans-serif'],
+        display: ['var(--font-display)', 'Georgia', 'serif'],
       },
       animation: {
         'fade-in': 'fadeIn 0.6s ease-out',
